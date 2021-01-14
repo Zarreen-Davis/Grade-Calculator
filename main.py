@@ -2,31 +2,31 @@ name = input ("Please enter your full name: ")
 
 mark_grade = int(input("What is your percentage mark: "))
 
-if mark_grade >= 90:
+if mark_grade > 90:
     grade = "A*."
     print("Your mark: " ,mark_grade," Your grade: ",grade, " Excellent! Keep up the good work!")
     
-elif mark_grade >= 80:
+elif mark_grade > 80:
     grade = "A."
     print("Your mark: " ,mark_grade," Your grade: ",grade, "Aim for an A*!")
     
-elif mark_grade >= 70: 
+elif mark_grade > 70: 
     grade = "B."
     print("Your mark: " ,mark_grade," Your grade: ",grade, "Good job.")
     
-elif mark_grade >= 60: 
+elif mark_grade > 60: 
     grade = "C."
     print("Your mark: " ,mark_grade," Your grade: ",grade, "Okay, try harder.")
     
-elif mark_grade >= 50:
+elif mark_grade > 50:
     grade = "D."
     print("Your mark: " ,mark_grade," Your grade: ",grade, "Poor. I expect more.")
 
-elif mark_grade >= 40:
+elif mark_grade > 30: 
     grade = "E."
     print("Your mark: " ,mark_grade," Your grade: ",grade, "Very poor")
 
-elif mark_grade >= 30: 
+elif mark_grade <= 30: 
     grade = "U."
     print("Your mark: " ,mark_grade," Your grade: ",grade, "Unacceptable")
 
